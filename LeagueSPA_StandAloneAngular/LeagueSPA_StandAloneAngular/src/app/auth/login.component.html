@@ -1,0 +1,28 @@
+<div class="login">
+  <h1>Login</h1>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <p *ngIf="loginResult && !loginResult.success">
+      <strong>ERROR</strong>: {{loginResult.message}}
+    </p>
+    <!-- Email -->
+    <div>
+      <label>Email:</label>
+      <input type="email" formControlName="email" required placeholder="Insert email">
+      <div *ngFor="let error of getErrors(form.get('email')!, 'Email')">
+        {{error}}
+      </div>
+    </div>
+    <!-- Password -->
+    <div>
+      <label>Password:</label>
+      <input type="password" formControlName="password" required placeholder="Insert Password">
+      <div *ngFor="let error of getErrors(form.get('password')!, 'Password')">
+        {{error}}
+      </div>
+    </div>
+    <div>
+      <button type="submit">Login</button>
+      <button [routerLink]="['/']">Cancel</button>
+    </div>
+  </form>
+</div>

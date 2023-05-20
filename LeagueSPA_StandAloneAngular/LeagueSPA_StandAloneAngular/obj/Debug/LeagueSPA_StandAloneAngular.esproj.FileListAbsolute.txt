@@ -1,0 +1,2 @@
+C:\Users\Neville\Documents\School\CS 584 (Advanced Web Engineering)\LeagueSPA_StandAloneAngular\LeagueSPA_StandAloneAngular\obj\Debug\LeagueSPA_StandAloneAngular.esproj.SuggestedBindingRedirects.cache
+C:\Users\Neville\Documents\School\CS 584 (Advanced Web Engineering)\LeagueSPA_StandAloneAngular\LeagueSPA_StandAloneAngular\obj\Debug\LeagueSPA_StandAloneAngular.esproj.CoreCompileInputs.cache
