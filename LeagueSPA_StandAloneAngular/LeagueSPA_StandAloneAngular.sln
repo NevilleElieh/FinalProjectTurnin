@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "LeagueSPA_StandAloneAngular", "LeagueSPA_StandAloneAngular\LeagueSPA_StandAloneAngular.esproj", "{34FEFAF1-EE03-4ADA-A258-2519B8AF42CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueSpaAPI", "LeagueSpaAPI\LeagueSpaAPI.csproj", "{AC288C13-9487-4670-BBE2-836CEBC8EC0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34FEFAF1-EE03-4ADA-A258-2519B8AF42CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FEFAF1-EE03-4ADA-A258-2519B8AF42CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FEFAF1-EE03-4ADA-A258-2519B8AF42CC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{34FEFAF1-EE03-4ADA-A258-2519B8AF42CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FEFAF1-EE03-4ADA-A258-2519B8AF42CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FEFAF1-EE03-4ADA-A258-2519B8AF42CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AC288C13-9487-4670-BBE2-836CEBC8EC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC288C13-9487-4670-BBE2-836CEBC8EC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC288C13-9487-4670-BBE2-836CEBC8EC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC288C13-9487-4670-BBE2-836CEBC8EC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64637A26-4727-47E9-8716-1FF6E8C051C6}
+	EndGlobalSection
+EndGlobal
